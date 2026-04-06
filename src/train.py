@@ -3,7 +3,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 import joblib
 
-from src.data_preprocessing import load_data, preprocess, split_data
+from data_preprocessing import load_data, preprocess, split_data
 
 # Load data
 df = load_data("data/raw/churn.csv")
